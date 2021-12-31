@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -35,4 +35,96 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  /* border:solid red 1px; */
+  width:600px;
+  height:240px;
+  position:relative;
+  left: 2%;
+  overflow: hidden;
+}
+
+.window {
+  width:100%;
+  height:10%;
+  background-color: #282c34;
+  /* position: relative; */
+  z-index:3;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.window p {
+  margin:0;
+  color:white;
+  text-align: center;
+}
+
+.body {
+  width:100%;
+  height:90%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position:absolute;
+  top:10%;
+  left:0;
+  /* z-index:4; */
+}
+
+.options {
+  /* background:red; */
+  border-right:solid 1px white;
+  width:fit-content;
+  padding-right:5%;
+  height:100%;
+  position:absolute;
+  top:10%;
+  /* top:20%; */
+}
+
+.options h1 {
+  color:white;
+  /* background:Red; */
+  border-bottom:solid white 1px;
+  width:123%;
+  /* padding-right:5%; */
+  margin:0;
+  /* margin-top:10%; */
+  /* height:100%; */
+  text-align: center;
+  cursor:pointer;
+  transition:all 250ms;
+}
+.options h1:hover {
+  width:calc(123% - 1px);
+  background:black;
+  /* border-right:solid white 1px; */
+}
+
+.content {
+  width:100%;
+  height:100%;
+  /* background-color: green; */
+  position:absolute;
+  left: 26%;
+}
+
+.content p {
+  /* background:red; */
+  margin:0;
+  position: absolute;
+  top:10%;
+  left:2%;
+  width:70%;
+  font-size:20px;
+  color:white;
+  height:90%;
+  text-align: center;
+  animation:fade 1s;
+}
+
+@keyframes fade {
+  from {opacity:0} to {opacity:1}
 }
