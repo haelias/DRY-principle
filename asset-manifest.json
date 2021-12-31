@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/DRY-principle/static/css/main.f3ee7468.css",
+    "main.js": "/DRY-principle/static/js/main.981f371a.js",
+    "static/js/787.855d930d.chunk.js": "/DRY-principle/static/js/787.855d930d.chunk.js",
+    "static/media/logo.svg": "/DRY-principle/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/DRY-principle/index.html",
+    "main.f3ee7468.css.map": "/DRY-principle/static/css/main.f3ee7468.css.map",
+    "main.981f371a.js.map": "/DRY-principle/static/js/main.981f371a.js.map",
+    "787.855d930d.chunk.js.map": "/DRY-principle/static/js/787.855d930d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3ee7468.css",
+    "static/js/main.981f371a.js"
+  ]
+}
